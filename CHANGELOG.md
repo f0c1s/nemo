@@ -2,6 +2,14 @@
 
 - remove conditional around "zero tests" check in mocha runner
 
+## 4.3.0
+
+- add `-U` or `--allow-unknown-args` to prevent Nemo from validating CLI arguments
+
+## 4.2.2
+
+- fix scaffold "tests" glob pattern in config
+
 ## 4.2.1
 
 - modify scaffold to favor CLI arg -L over env variable in config
